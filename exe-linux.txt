@@ -1,0 +1,30 @@
+OPEN TERMINAL AND RUN THE FOLLOWING COMMANDS STEP BY STEP
+
+
+sudo apt install wine
+wine
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install wine32
+
+-------------------------------------------------------------
+
+To configure WINE
+
+winecfg
+
+-------------------------------------------------------------
+
+To directly run .exe file (to run without terminal)
+
+sudo ln -s /usr/share/doc/wine/examples/wine.desktop /usr/share/applications
+
+-------------------------------------------------------------
+
+1. setup.exe
+2. Right Click
+3. Open with other Application
+4. Select Wine Windows Program Loader
+
+--------------------------------------------------------------
+
